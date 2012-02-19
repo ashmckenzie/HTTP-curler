@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDC746814F11231004582A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDC746714F11231004582A1 /* Cocoa.framework */; };
+		5EDC746A14F11231004582A1 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDC746914F11231004582A1 /* MacRuby.framework */; };
+		5EDC747114F11231004582A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC746F14F11231004582A1 /* InfoPlist.strings */; };
+		5EDC747314F11231004582A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC747214F11231004582A1 /* main.m */; };
+		5EDC747814F11231004582A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC747614F11231004582A1 /* MainMenu.xib */; };
+		5EDC747B14F11231004582A1 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC747A14F11231004582A1 /* rb_main.rb */; };
+		5EDC747D14F11231004582A1 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC747C14F11231004582A1 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EDC746314F11231004582A1 /* HTTP curler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTTP curler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDC746714F11231004582A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5EDC746914F11231004582A1 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		5EDC746E14F11231004582A1 /* HTTP curler-Info.plist */ = {isa = PBXFileReference; path = "HTTP curler-Info.plist"; sourceTree = "<group>"; };
+		5EDC747014F11231004582A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EDC747214F11231004582A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EDC747414F11231004582A1 /* HTTP curler-Prefix.pch */ = {isa = PBXFileReference; path = "HTTP curler-Prefix.pch"; sourceTree = "<group>"; };
+		5EDC747714F11231004582A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5EDC747A14F11231004582A1 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		5EDC747C14F11231004582A1 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EDC746014F11231004582A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC746814F11231004582A1 /* Cocoa.framework in Frameworks */,
+				5EDC746A14F11231004582A1 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EDC745814F11231004582A1 = {
+			isa = PBXGroup;
+			children = (
+				5EDC746C14F11231004582A1 /* HTTP curler */,
+				5EDC746614F11231004582A1 /* Frameworks */,
+				5EDC746414F11231004582A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EDC746414F11231004582A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC746314F11231004582A1 /* HTTP curler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EDC746614F11231004582A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC746714F11231004582A1 /* Cocoa.framework */,
+				5EDC746914F11231004582A1 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EDC746C14F11231004582A1 /* HTTP curler */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC747C14F11231004582A1 /* AppDelegate.rb */,
+				5EDC747514F11231004582A1 /* Resources */,
+				5EDC747914F11231004582A1 /* Other Sources */,
+				5EDC746D14F11231004582A1 /* Supporting Files */,
+			);
+			path = "HTTP curler";
+			sourceTree = "<group>";
+		};
+		5EDC746D14F11231004582A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC746E14F11231004582A1 /* HTTP curler-Info.plist */,
+				5EDC746F14F11231004582A1 /* InfoPlist.strings */,
+				5EDC747214F11231004582A1 /* main.m */,
+				5EDC747414F11231004582A1 /* HTTP curler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EDC747514F11231004582A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC747614F11231004582A1 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EDC747914F11231004582A1 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC747A14F11231004582A1 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5EDC746B14F11231004582A1 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 5EDC748314F11231004582A1 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		5EDC746214F11231004582A1 /* HTTP curler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC748014F11231004582A1 /* Build configuration list for PBXNativeTarget "HTTP curler" */;
+			buildPhases = (
+				5EDC745F14F11231004582A1 /* Sources */,
+				5EDC746014F11231004582A1 /* Frameworks */,
+				5EDC746114F11231004582A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTTP curler";
+			productName = "HTTP curler";
+			productReference = 5EDC746314F11231004582A1 /* HTTP curler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EDC745A14F11231004582A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5EDC745D14F11231004582A1 /* Build configuration list for PBXProject "HTTP curler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EDC745814F11231004582A1;
+			productRefGroup = 5EDC746414F11231004582A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EDC746214F11231004582A1 /* HTTP curler */,
+				5EDC746B14F11231004582A1 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EDC746114F11231004582A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC747114F11231004582A1 /* InfoPlist.strings in Resources */,
+				5EDC747814F11231004582A1 /* MainMenu.xib in Resources */,
+				5EDC747B14F11231004582A1 /* rb_main.rb in Resources */,
+				5EDC747D14F11231004582A1 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDC745F14F11231004582A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC747314F11231004582A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EDC746F14F11231004582A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EDC747014F11231004582A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EDC747614F11231004582A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EDC747714F11231004582A1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EDC747E14F11231004582A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5EDC747F14F11231004582A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5EDC748114F11231004582A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTTP curler/HTTP curler-Prefix.pch";
+				INFOPLIST_FILE = "HTTP curler/HTTP curler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EDC748214F11231004582A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTTP curler/HTTP curler-Prefix.pch";
+				INFOPLIST_FILE = "HTTP curler/HTTP curler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5EDC748414F11231004582A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5EDC748514F11231004582A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EDC745D14F11231004582A1 /* Build configuration list for PBXProject "HTTP curler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC747E14F11231004582A1 /* Debug */,
+				5EDC747F14F11231004582A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC748014F11231004582A1 /* Build configuration list for PBXNativeTarget "HTTP curler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC748114F11231004582A1 /* Debug */,
+				5EDC748214F11231004582A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EDC748314F11231004582A1 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC748414F11231004582A1 /* Debug */,
+				5EDC748514F11231004582A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EDC745A14F11231004582A1 /* Project object */;
+}
