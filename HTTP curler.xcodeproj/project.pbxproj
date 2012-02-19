@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EC4BE8314F1148400EB807E /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4BE8214F1148400EB807E /* Controller.rb */; };
 		5EDC746814F11231004582A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDC746714F11231004582A1 /* Cocoa.framework */; };
 		5EDC746A14F11231004582A1 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDC746914F11231004582A1 /* MacRuby.framework */; };
 		5EDC747114F11231004582A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC746F14F11231004582A1 /* InfoPlist.strings */; };
@@ -17,13 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EC4BE8214F1148400EB807E /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Controller.rb; sourceTree = "<group>"; };
 		5EDC746314F11231004582A1 /* HTTP curler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTTP curler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDC746714F11231004582A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5EDC746914F11231004582A1 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		5EDC746E14F11231004582A1 /* HTTP curler-Info.plist */ = {isa = PBXFileReference; path = "HTTP curler-Info.plist"; sourceTree = "<group>"; };
+		5EDC746E14F11231004582A1 /* HTTP curler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTTP curler-Info.plist"; sourceTree = "<group>"; };
 		5EDC747014F11231004582A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EDC747214F11231004582A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EDC747414F11231004582A1 /* HTTP curler-Prefix.pch */ = {isa = PBXFileReference; path = "HTTP curler-Prefix.pch"; sourceTree = "<group>"; };
+		5EDC747414F11231004582A1 /* HTTP curler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTTP curler-Prefix.pch"; sourceTree = "<group>"; };
 		5EDC747714F11231004582A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5EDC747A14F11231004582A1 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		5EDC747C14F11231004582A1 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				5EDC747614F11231004582A1 /* MainMenu.xib */,
+				5EC4BE8214F1148400EB807E /* Controller.rb */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				5EDC747814F11231004582A1 /* MainMenu.xib in Resources */,
 				5EDC747B14F11231004582A1 /* rb_main.rb in Resources */,
 				5EDC747D14F11231004582A1 /* AppDelegate.rb in Resources */,
+				5EC4BE8314F1148400EB807E /* Controller.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,7 @@
 				5EDC748214F11231004582A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EDC748314F11231004582A1 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -331,6 +336,7 @@
 				5EDC748514F11231004582A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
